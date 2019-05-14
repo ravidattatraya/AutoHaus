@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ASSETS/COMMON/cook_rep_with_no_rect.png</file>
+        <file>ASSETS/COMMON/food_rep_with_rect.png</file>
+        <file>ASSETS/COMMON/icon_servings.png</file>
+        <file>ASSETS/COMMON/nutrition_rep_with_rect.png</file>
+        <file>ASSETS/COMMON/plate_rep_with_rect.png</file>
+        <file>ASSETS/COMMON/top_bar_button_next.png</file>
+        <file>ASSETS/SCREEN_0/bottom_bar_weigh_instruments.png</file>
+        <file>ASSETS/SCREEN_0/botttom_bar_status.png</file>
+        <file>ASSETS/SCREEN_0/botttom_bar_turbo.png</file>
+        <file>ASSETS/SCREEN_0/ico_fan.png</file>
+        <file>ASSETS/SCREEN_0/ico_temp.png</file>
+        <file>ASSETS/SCREEN_1/icon_clock.png</file>
+        <file>ASSETS/SCREEN_1/icon_cost_active.png</file>
+        <file>ASSETS/SCREEN_1/icon_cost_inactive.png</file>
+        <file>ASSETS/SCREEN_1/icon_difficulty_active.png</file>
+        <file>ASSETS/SCREEN_1/icon_difficulty_inactive.png</file>
+        <file>ASSETS/SCREEN_1/photo.png</file>
+    </qresource>
+</RCC>

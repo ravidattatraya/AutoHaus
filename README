@@ -1,0 +1,6 @@
+TODO
+1. Screen design using Qt design studio + photoshop bridge
+2. Optimisation of image assets: !! high size of .qrc file!!
+3. QML component defination and design for multiple screen
+4. binding call defination to load data from config file  or over network.
+5. warning fixes
