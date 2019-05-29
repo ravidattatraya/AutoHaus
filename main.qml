@@ -2,7 +2,7 @@ import QtQuick 2.12
 import QtQuick.Window 2.12
 import CustomControls 1.0
 import QtQuick.Layouts 1.12
-import QtQuick.Extras 1.4
+
 
 Window {
     id: appwin
@@ -256,15 +256,6 @@ Window {
             border.width: 0
             border.color: "#f7f6f6"
 
-            CircularGauge {
-                id: circularGauge
-                x: 95
-                y: 37
-                width: 386
-                height: 386
-                rotation: 0
-                value: 15
-            }
 
             Rectangle {
                 id: left_indicator
@@ -535,10 +526,13 @@ Window {
 
 
 
+
+
+
+
 /*##^## Designer {
     D{i:0;autoSize:true;height:992;width:640}D{i:3;anchors_x:139}D{i:4;anchors_y:8}D{i:5;anchors_x:162}
 D{i:6;anchors_height:81;anchors_x:20;anchors_y:85}D{i:7;anchors_y:15}D{i:8;anchors_x:276}
-D{i:13;anchors_y:"-9"}D{i:12;anchors_y:0}D{i:16;anchors_y:"-9"}D{i:24;anchors_x:60}
-D{i:22;anchors_x:8}D{i:26;anchors_x:60}
+D{i:13;anchors_y:"-9"}D{i:12;anchors_y:0}D{i:16;anchors_y:"-9"}D{i:24;anchors_x:8}
 }
  ##^##*/
