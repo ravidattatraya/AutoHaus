@@ -105,7 +105,7 @@ Window {
                 width: 288
                 height: 69
                 color: "#ffffff"
-                text: qsTr("Grinding..")
+                text: qsTr("Grinding...")
                 anchors.left: parent.left
                 anchors.leftMargin: 174
                 lineHeight: 1
@@ -171,6 +171,35 @@ Window {
                     anchors.top: parent.bottom
                     z: 1
                     anchors.topMargin: 0
+                }
+
+                Text {
+                    id: txt_body
+                    x: 15
+                    y: 53
+                    width: 504
+                    height: 105
+                    color: "#ffffff"
+                    text: qsTr("A brown fox")
+                    anchors.bottom: parent.bottom
+                    anchors.bottomMargin: 21
+                    horizontalAlignment: Text.AlignLeft
+                    font.pixelSize: 20
+                }
+
+                Text {
+                    id: element
+                    x: 15
+                    y: 8
+                    width: 481
+                    height: 39
+                    color: "#33fa3e"
+                    text: qsTr("Coming up next")
+                    anchors.bottom: txt_body.top
+                    anchors.bottomMargin: 6
+                    fontSizeMode: Text.HorizontalFit
+                    horizontalAlignment: Text.AlignLeft
+                    font.pixelSize: 22
                 }
             }
 
@@ -259,7 +288,7 @@ Window {
                 }
 
                 Text {
-                    id: element
+                    id: txt_fanspeed
                     y: 3
                     width: 65
                     height: 61
@@ -284,7 +313,7 @@ Window {
                 anchors.bottomMargin: 8
 
                 Text {
-                    id: element1
+                    id: txt_temp
                     y: 3
                     width: 65
                     height: 61
@@ -504,10 +533,12 @@ Window {
 
 
 
+
+
 /*##^## Designer {
     D{i:0;autoSize:true;height:992;width:640}D{i:3;anchors_x:139}D{i:4;anchors_y:8}D{i:5;anchors_x:162}
 D{i:6;anchors_height:81;anchors_x:20;anchors_y:85}D{i:7;anchors_y:15}D{i:8;anchors_x:276}
-D{i:13;anchors_y:"-9"}D{i:12;anchors_y:0}D{i:14;anchors_y:"-9"}D{i:22;anchors_x:60}
-D{i:20;anchors_x:8}D{i:24;anchors_x:60}
+D{i:13;anchors_y:"-9"}D{i:12;anchors_y:0}D{i:16;anchors_y:"-9"}D{i:24;anchors_x:60}
+D{i:22;anchors_x:8}D{i:26;anchors_x:60}
 }
  ##^##*/
