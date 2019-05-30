@@ -7,8 +7,8 @@ import QtQuick.Layouts 1.12
 Window {
     id: appwin
     visible: true
-    //    width: 576
-    //    height: 922
+        width: 576
+        height: 998
     title: qsTr("Home Auto")
     // TOFIX RD: fixed window size !
     //    maximumHeight: 992
@@ -134,7 +134,6 @@ Window {
                 border.width: 0
                 z: 1
             }
-
 
         }
 
