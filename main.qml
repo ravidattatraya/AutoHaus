@@ -257,6 +257,30 @@ Window {
             border.color: "#f7f6f6"
 
 
+            SpiralBar {
+                anchors.horizontalCenter: parent.horizontalCenter
+                anchors.verticalCenter:  parent.verticalCenter
+                width: parent.width / 1.4
+                height: width
+                penStyle: Qt.RoundCap
+                progressColor: "#41cd52"
+                foregroundColor: "#3a4055"
+                dialWidth: 30
+                dialType: SpiralBar.FullDial
+                minValue: 0
+                maxValue: 100
+                startAngle: 180
+                value: 10
+                suffixText: "\""
+                textFont {
+                    family: "Halvetica"
+                    italic: false
+                    pointSize: 38
+                }
+                textColor: "#00ffc1"
+            }
+
+
             Rectangle {
                 id: left_indicator
                 y: 382

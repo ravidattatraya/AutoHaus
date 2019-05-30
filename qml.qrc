@@ -18,5 +18,6 @@
         <file>ASSETS/SCREEN_1/icon_difficulty_active.png</file>
         <file>ASSETS/SCREEN_1/icon_difficulty_inactive.png</file>
         <file>ASSETS/SCREEN_1/photo.png</file>
+        <file>recipe-overview.qml</file>
     </qresource>
 </RCC>
