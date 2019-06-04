@@ -259,6 +259,7 @@ Window {
             SpiralBar {
                 anchors.horizontalCenter: parent.horizontalCenter
                 anchors.verticalCenter:  parent.verticalCenter
+                id: spiralbarmain
                 width: parent.width / 1.4
                 height: width
                 penStyle: Qt.RoundCap
@@ -277,6 +278,16 @@ Window {
                     pointSize: 38
                 }
                 textColor: "#00ffc1"
+
+                states: State {
+                        name: "moved"
+                        PropertyChanges { target: spiralbarmain; value: 50 }
+                    }
+
+                transitions: Transition {
+                       PropertyAnimation { properties: "value"; easing.type: Easing.InOutQuad }
+                   }
+                MouseArea { anchors.fill: parent; onClicked: spiralbarmain.value += 5 }
             }
 
 
