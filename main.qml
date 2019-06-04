@@ -275,19 +275,20 @@ Window {
                 textFont {
                     family: "Halvetica"
                     italic: false
-                    pointSize: 38
+                    pointSize: 58
                 }
                 textColor: "#00ffc1"
 
-                states: State {
-                        name: "moved"
-                        PropertyChanges { target: spiralbarmain; value: 50 }
-                    }
-
-                transitions: Transition {
-                       PropertyAnimation { properties: "value"; easing.type: Easing.InOutQuad }
-                   }
-                MouseArea { anchors.fill: parent; onClicked: spiralbarmain.value += 5 }
+                //!! demo code and not for real application
+                MouseArea { anchors.fill: parent
+                            onClicked:
+                            {
+                                if(spiralbarmain.value < 100)
+                                        spiralbarmain.value += 5
+                                else
+                                   spiralbarmain.value = 0
+                            }
+                }
             }
 
 
